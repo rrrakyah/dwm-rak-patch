@@ -1539,7 +1539,7 @@ scan(void)
 				continue;
 			if (wmclasscontains(wins[i], altbarclass, ""))
 				managealtbar(wins[i], &wa);
-			else if (wa.map_state == IsViewable || getstate(wins[i]) == IconicState))
+			else if (wa.map_state == IsViewable || getstate(wins[i]) == IconicState)
 				manage(wins[i], &wa);
 		}
 		for (i = 0; i < num; i++) { /* now the transients */
