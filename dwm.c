@@ -1821,7 +1821,7 @@ spawn(const Arg *arg)
 	}
 }
 
-+void
+void
 spawnbar()
 {
 	if (*altbarcmd)
